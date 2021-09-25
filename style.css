@@ -1,0 +1,76 @@
+body{
+  background-color: black;
+  font-family: "Lucida Console", Courier, monospace;
+  color: white;
+}
+
+h3{
+  color: white;
+  right:30px;
+  position: absolute;
+}
+
+p{
+
+}
+
+.bg{
+}
+
+
+#mainLogo{
+  right: 30px;
+  bottom: 30px;
+  position: fixed;
+}
+
+.scrollbox{
+  width: 100%;
+  height: 60px;
+  right: 20px;
+  top: 20px;
+  position: fixed;
+  background-color: black;
+  color: #42FF00;
+}
+
+.openFolder{
+  position: absolute;
+  height: 80px;
+  top: 200px;
+  left: 30px;
+}
+
+.openFoldertxt{
+  position: absolute;
+  height: 80px;
+  top: 260px;
+  left: 50px;
+  color: yellow;
+}
+
+.change img:last-child{display:none;}
+.change:hover img:first-child{display:none;}
+.change:hover img:last-child{display:inline-block;}
+
+a{
+  font-style: italic;
+}
+
+.link:hover{
+  text-decoration: underline;
+  color: gold;
+}
+
+
+.button {
+  background-color: #42FF00;
+  border: none;
+  color: black;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  cursor: pointer;
+}
