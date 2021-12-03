@@ -55,6 +55,11 @@ p{
 
 a{
   font-style: italic;
+  color:lime;
+}
+
+a:visited {
+  color: green;
 }
 
 .link:hover{
